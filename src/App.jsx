@@ -1,12 +1,13 @@
 import { useState } from 'react'
-import './App.css'
+
+import UserPostFilter from './component/UserPostFilter'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      
+      <UserPostFilter/>
     </>
   )
 }
